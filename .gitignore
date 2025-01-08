@@ -169,3 +169,44 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# macOS Finder metadata
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.AppleDouble
+.fseventsd
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+env/
+venv/
+
+# Ignore specific file extensions and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~*
+
+# Ignore Jupyter Notebook output if needed
+*.nbconvert.ipynb
+
+# Ignore any temporary notebook files
+*.ipynb~
